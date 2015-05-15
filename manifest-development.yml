@@ -1,0 +1,11 @@
+---
+applications:
+- name: hello-nexus
+  memory: 128M
+  instances: 2
+  host: hello-nexus
+  command: npm start
+#  services:
+#  - logging
+  env:
+    NODE_ENV: development
